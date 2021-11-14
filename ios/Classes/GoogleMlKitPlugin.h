@@ -21,8 +21,6 @@
 @interface FaceDetector : NSObject <Handler>
 @end
 
-@interface TextRecognizer : NSObject <Handler>
-@end
 
 static FlutterError *getFlutterError(NSError *error) {
     return [FlutterError errorWithCode:[NSString stringWithFormat:@"Error %d", (int)error.code]

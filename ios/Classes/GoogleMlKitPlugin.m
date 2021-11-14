@@ -11,7 +11,6 @@
     // Add vision detectors
     NSMutableArray *handlers = [NSMutableArray new];
     [handlers addObject:[[FaceDetector alloc] init]];
-    [handlers addObject:[[TextRecognizer alloc] init]];
     
     // Add nlp detectors
     
